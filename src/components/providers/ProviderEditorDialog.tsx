@@ -391,7 +391,7 @@ export function ProviderEditorDialog({
         )}
       </span>
       <div
-        className="pv-protocols"
+        className="pv-protocols vary-segmented"
         role="radiogroup"
         aria-labelledby={`${id}-regions`}
       >
@@ -654,7 +654,7 @@ export function ProviderEditorDialog({
                       <label htmlFor={`${id}-url`}>Base URL</label>
                       <div className="pv-stack">
                         <div
-                          className="pv-protocols"
+                          className="pv-protocols vary-segmented"
                           role="radiogroup"
                           aria-label={t("modelProviders.protocol")}
                         >
